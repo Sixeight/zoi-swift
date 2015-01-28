@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D175C21A79370100F50C6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D175C11A79370100F50C6D /* AppDelegate.swift */; };
+		B1D175C41A79370100F50C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D175C31A79370100F50C6D /* ViewController.swift */; };
+		B1D175C71A79370100F50C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D175C51A79370100F50C6D /* Main.storyboard */; };
+		B1D175C91A79370100F50C6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D175C81A79370100F50C6D /* Images.xcassets */; };
+		B1D175CC1A79370100F50C6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D175CA1A79370100F50C6D /* LaunchScreen.xib */; };
+		B1D175D81A79370100F50C6D /* zoi_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D175D71A79370100F50C6D /* zoi_swiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D175D21A79370100F50C6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D175B41A79370100F50C6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D175BB1A79370100F50C6D;
+			remoteInfo = "zoi-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1D175BC1A79370100F50C6D /* zoi-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "zoi-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D175C01A79370100F50C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D175C11A79370100F50C6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1D175C31A79370100F50C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1D175C61A79370100F50C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D175C81A79370100F50C6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1D175CB1A79370100F50C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B1D175D11A79370100F50C6D /* zoi-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zoi-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D175D61A79370100F50C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D175D71A79370100F50C6D /* zoi_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoi_swiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D175B91A79370100F50C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D175CE1A79370100F50C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D175B31A79370100F50C6D = {
+			isa = PBXGroup;
+			children = (
+				B1D175BE1A79370100F50C6D /* zoi-swift */,
+				B1D175D41A79370100F50C6D /* zoi-swiftTests */,
+				B1D175BD1A79370100F50C6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D175BD1A79370100F50C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D175BC1A79370100F50C6D /* zoi-swift.app */,
+				B1D175D11A79370100F50C6D /* zoi-swiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D175BE1A79370100F50C6D /* zoi-swift */ = {
+			isa = PBXGroup;
+			children = (
+				B1D175C11A79370100F50C6D /* AppDelegate.swift */,
+				B1D175C31A79370100F50C6D /* ViewController.swift */,
+				B1D175C51A79370100F50C6D /* Main.storyboard */,
+				B1D175C81A79370100F50C6D /* Images.xcassets */,
+				B1D175CA1A79370100F50C6D /* LaunchScreen.xib */,
+				B1D175BF1A79370100F50C6D /* Supporting Files */,
+			);
+			path = "zoi-swift";
+			sourceTree = "<group>";
+		};
+		B1D175BF1A79370100F50C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1D175C01A79370100F50C6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1D175D41A79370100F50C6D /* zoi-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D175D71A79370100F50C6D /* zoi_swiftTests.swift */,
+				B1D175D51A79370100F50C6D /* Supporting Files */,
+			);
+			path = "zoi-swiftTests";
+			sourceTree = "<group>";
+		};
+		B1D175D51A79370100F50C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1D175D61A79370100F50C6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D175BB1A79370100F50C6D /* zoi-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D175DB1A79370100F50C6D /* Build configuration list for PBXNativeTarget "zoi-swift" */;
+			buildPhases = (
+				B1D175B81A79370100F50C6D /* Sources */,
+				B1D175B91A79370100F50C6D /* Frameworks */,
+				B1D175BA1A79370100F50C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "zoi-swift";
+			productName = "zoi-swift";
+			productReference = B1D175BC1A79370100F50C6D /* zoi-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D175D01A79370100F50C6D /* zoi-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D175DE1A79370100F50C6D /* Build configuration list for PBXNativeTarget "zoi-swiftTests" */;
+			buildPhases = (
+				B1D175CD1A79370100F50C6D /* Sources */,
+				B1D175CE1A79370100F50C6D /* Frameworks */,
+				B1D175CF1A79370100F50C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D175D31A79370100F50C6D /* PBXTargetDependency */,
+			);
+			name = "zoi-swiftTests";
+			productName = "zoi-swiftTests";
+			productReference = B1D175D11A79370100F50C6D /* zoi-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D175B41A79370100F50C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tomohiro Nishimura";
+				TargetAttributes = {
+					B1D175BB1A79370100F50C6D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B1D175D01A79370100F50C6D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B1D175BB1A79370100F50C6D;
+					};
+				};
+			};
+			buildConfigurationList = B1D175B71A79370100F50C6D /* Build configuration list for PBXProject "zoi-swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D175B31A79370100F50C6D;
+			productRefGroup = B1D175BD1A79370100F50C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D175BB1A79370100F50C6D /* zoi-swift */,
+				B1D175D01A79370100F50C6D /* zoi-swiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D175BA1A79370100F50C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D175C71A79370100F50C6D /* Main.storyboard in Resources */,
+				B1D175CC1A79370100F50C6D /* LaunchScreen.xib in Resources */,
+				B1D175C91A79370100F50C6D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D175CF1A79370100F50C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D175B81A79370100F50C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D175C41A79370100F50C6D /* ViewController.swift in Sources */,
+				B1D175C21A79370100F50C6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D175CD1A79370100F50C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D175D81A79370100F50C6D /* zoi_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D175D31A79370100F50C6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D175BB1A79370100F50C6D /* zoi-swift */;
+			targetProxy = B1D175D21A79370100F50C6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1D175C51A79370100F50C6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D175C61A79370100F50C6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D175CA1A79370100F50C6D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D175CB1A79370100F50C6D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D175D91A79370100F50C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D175DA1A79370100F50C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D175DC1A79370100F50C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "zoi-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1D175DD1A79370100F50C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "zoi-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1D175DF1A79370100F50C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "zoi-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoi-swift.app/zoi-swift";
+			};
+			name = Debug;
+		};
+		B1D175E01A79370100F50C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "zoi-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoi-swift.app/zoi-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D175B71A79370100F50C6D /* Build configuration list for PBXProject "zoi-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D175D91A79370100F50C6D /* Debug */,
+				B1D175DA1A79370100F50C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D175DB1A79370100F50C6D /* Build configuration list for PBXNativeTarget "zoi-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D175DC1A79370100F50C6D /* Debug */,
+				B1D175DD1A79370100F50C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1D175DE1A79370100F50C6D /* Build configuration list for PBXNativeTarget "zoi-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D175DF1A79370100F50C6D /* Debug */,
+				B1D175E01A79370100F50C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D175B41A79370100F50C6D /* Project object */;
+}
