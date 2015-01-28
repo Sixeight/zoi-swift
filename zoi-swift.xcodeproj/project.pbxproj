@@ -11,7 +11,6 @@
 		B1D175C41A79370100F50C6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D175C31A79370100F50C6D /* ViewController.swift */; };
 		B1D175C71A79370100F50C6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D175C51A79370100F50C6D /* Main.storyboard */; };
 		B1D175C91A79370100F50C6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D175C81A79370100F50C6D /* Images.xcassets */; };
-		B1D175CC1A79370100F50C6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1D175CA1A79370100F50C6D /* LaunchScreen.xib */; };
 		B1D175D81A79370100F50C6D /* zoi_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D175D71A79370100F50C6D /* zoi_swiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		B1D175C31A79370100F50C6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B1D175C61A79370100F50C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1D175C81A79370100F50C6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B1D175CB1A79370100F50C6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B1D175D11A79370100F50C6D /* zoi-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "zoi-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D175D61A79370100F50C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B1D175D71A79370100F50C6D /* zoi_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoi_swiftTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				B1D175C31A79370100F50C6D /* ViewController.swift */,
 				B1D175C51A79370100F50C6D /* Main.storyboard */,
 				B1D175C81A79370100F50C6D /* Images.xcassets */,
-				B1D175CA1A79370100F50C6D /* LaunchScreen.xib */,
 				B1D175BF1A79370100F50C6D /* Supporting Files */,
 			);
 			path = "zoi-swift";
@@ -193,7 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1D175C71A79370100F50C6D /* Main.storyboard in Resources */,
-				B1D175CC1A79370100F50C6D /* LaunchScreen.xib in Resources */,
 				B1D175C91A79370100F50C6D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +238,6 @@
 				B1D175C61A79370100F50C6D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B1D175CA1A79370100F50C6D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1D175CB1A79370100F50C6D /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -407,6 +395,7 @@
 				B1D175DD1A79370100F50C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1D175DE1A79370100F50C6D /* Build configuration list for PBXNativeTarget "zoi-swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +404,7 @@
 				B1D175E01A79370100F50C6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
